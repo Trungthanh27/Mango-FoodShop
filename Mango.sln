@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrondEnd", "FrondEnd", "{AD01E8E7-135C-4023-8250-1DE3527C351D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{E7ABDC4D-9C4E-4EB5-9B97-4E4C1530EA6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{251DAF5E-7AC7-410D-916C-D7F30BAB49F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{5ADCF9B5-5AF4-45DB-ABBB-1FE2BD97757D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Services.CouponAPI", "Mango.Services.CouponAPI\Mango.Services.CouponAPI.csproj", "{85031F20-458A-4736-B598-1B931CA5AD8E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Web", "Mango.Web\Mango.Web.csproj", "{C94F1A1C-68B0-43F1-BAFE-14A8709AD51E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Services.AuthAPI", "Mango.Services.AuthAPI\Mango.Services.AuthAPI.csproj", "{CC21671E-558E-4A6E-A3C9-64AF13B43FF1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Services.ProductAPI", "Mango.Services.ProductAPI\Mango.Services.ProductAPI.csproj", "{6FCD5B42-F2F3-4888-96CA-7C6B9F66B7E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Services.ShoppingCartAPI", "Mango.Services.ShoppingCartAPI\Mango.Services.ShoppingCartAPI.csproj", "{2C9A7576-9117-4A08-9536-F180A7458617}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Services.OrderAPI", "Mango.Services.OrderAPI\Mango.Services.OrderAPI.csproj", "{14E741DC-0927-4FDA-86F0-9AE8C4E1E4CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85031F20-458A-4736-B598-1B931CA5AD8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85031F20-458A-4736-B598-1B931CA5AD8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85031F20-458A-4736-B598-1B931CA5AD8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85031F20-458A-4736-B598-1B931CA5AD8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C94F1A1C-68B0-43F1-BAFE-14A8709AD51E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C94F1A1C-68B0-43F1-BAFE-14A8709AD51E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C94F1A1C-68B0-43F1-BAFE-14A8709AD51E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C94F1A1C-68B0-43F1-BAFE-14A8709AD51E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC21671E-558E-4A6E-A3C9-64AF13B43FF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC21671E-558E-4A6E-A3C9-64AF13B43FF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC21671E-558E-4A6E-A3C9-64AF13B43FF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC21671E-558E-4A6E-A3C9-64AF13B43FF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FCD5B42-F2F3-4888-96CA-7C6B9F66B7E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FCD5B42-F2F3-4888-96CA-7C6B9F66B7E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FCD5B42-F2F3-4888-96CA-7C6B9F66B7E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FCD5B42-F2F3-4888-96CA-7C6B9F66B7E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C9A7576-9117-4A08-9536-F180A7458617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C9A7576-9117-4A08-9536-F180A7458617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C9A7576-9117-4A08-9536-F180A7458617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C9A7576-9117-4A08-9536-F180A7458617}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14E741DC-0927-4FDA-86F0-9AE8C4E1E4CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14E741DC-0927-4FDA-86F0-9AE8C4E1E4CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14E741DC-0927-4FDA-86F0-9AE8C4E1E4CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14E741DC-0927-4FDA-86F0-9AE8C4E1E4CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{85031F20-458A-4736-B598-1B931CA5AD8E} = {5ADCF9B5-5AF4-45DB-ABBB-1FE2BD97757D}
+		{C94F1A1C-68B0-43F1-BAFE-14A8709AD51E} = {AD01E8E7-135C-4023-8250-1DE3527C351D}
+		{CC21671E-558E-4A6E-A3C9-64AF13B43FF1} = {5ADCF9B5-5AF4-45DB-ABBB-1FE2BD97757D}
+		{6FCD5B42-F2F3-4888-96CA-7C6B9F66B7E6} = {5ADCF9B5-5AF4-45DB-ABBB-1FE2BD97757D}
+		{2C9A7576-9117-4A08-9536-F180A7458617} = {5ADCF9B5-5AF4-45DB-ABBB-1FE2BD97757D}
+		{14E741DC-0927-4FDA-86F0-9AE8C4E1E4CD} = {5ADCF9B5-5AF4-45DB-ABBB-1FE2BD97757D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {71EA8A21-033A-489E-8D76-E2915C09745B}
+	EndGlobalSection
+EndGlobal
